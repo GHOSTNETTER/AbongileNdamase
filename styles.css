@@ -61,7 +61,7 @@ body {
 
 .main-nav {
   list-style: none;
-  display: none;
+  display: block;
   gap: 20px;
   margin-left: 450px;
 }
