@@ -3,183 +3,275 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name= "google-site-verification=icnnLbrRR40BXcajRT-WDL4_kDVQX2kPFvk1klxHkDU" />
+
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Abongile Ndamase",
-  "jobTitle": "Web Developer & Solutions Architect",
-  "url": "https://Abongilendamase.netlify.app",
-  "image": "https://Abongilendamase.netlify.app/portfolio-image.png",
-  "sameAs": [
-    "https://www.linkedin.com/in/abongile-ndamase-4a361633b/",
-    "https://github.com/GHOSTNETTER",
-    "https://www.instagram.com/abongile_ndamase21/"
-  ],
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Mthatha",
-    "addressRegion": "Eastern Cape",
-    "addressCountry": "ZA"
-  },
-  "email": "abongilendamase01@gmail.com",
-  "telephone": "+27680368550",
-  "knowsAbout": [
-    "Web Development",
-    "Web Design",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "Responsive Design"
-  ],
-  "alumniOf": {
-    "@type": "EducationalOrganization",
-    "name": "Walter Sisulu University"
-  },
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Revelation Sphere Technologies",
-    "url": "https://revelationspheretechnologies.netlify.app"
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Abongile Ndamase",
+    "jobTitle": "Web Developer & Solutions Architect",
+    "url": "https://Abongilendamase.netlify.app",
+    "image": "https://Abongilendamase.netlify.app/portfolio-image.png",
+    "sameAs": [
+      "https://www.linkedin.com/in/abongile-ndamase-4a361633b/",
+      "https://github.com/GHOSTNETTER",
+      "https://www.instagram.com/abongile_ndamase21/"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mthatha",
+      "addressRegion": "Eastern Cape",
+      "addressCountry": "ZA"
+    },
+    "email": "abongilendamase01@gmail.com",
+    "telephone": "+27680368550",
+    "knowsAbout": ["Web Development","Web Design","HTML","CSS","JavaScript","Responsive Design"],
+    "alumniOf": { "@type": "EducationalOrganization", "name": "Walter Sisulu University" },
+    "worksFor": { "@type": "Organization", "name": "Revelation Sphere Technologies", "url": "https://revelationspheretechnologies.netlify.app" }
   }
-}
-</script>
-  <title>Abongile Ndamase-Founder&Web Solutions Architect | Eastern Cape, SA</title>
-  <meta name="description" content="Web Solutions Architect and Web Developer in Eastern Cape& KwaZulu-Natal creating modern, affordable websites for small businesses.Portfolio & Conatct info">
+  </script>
 
-  <meta name="keywords" content="web developer, web design,Eastern Cape & KwaZulu-Natal, South Africa, Abongile Ndamase">
-
-<meta property="og:title" content="Abongile Ndamase- Founder|Web Developer" />
-  <meta property="og:description" content="Professional web developer in Eastern Cape creating modern, affordable websites for small businesses across South Africa starting from R1,500. Serving small businesses across South Africa." />
+  <title>Abongile Ndamase — Founder | Web Solutions Architect | Eastern Cape, SA</title>
+  <meta name="description" content="Web Solutions Architect and Web Developer in Eastern Cape & KwaZulu-Natal creating modern, affordable websites for small businesses. Portfolio & Contact info." />
+  <meta name="keywords" content="web developer, web design, Eastern Cape, KwaZulu-Natal, South Africa, Abongile Ndamase" />
+  <meta property="og:title" content="Abongile Ndamase — Founder | Web Developer" />
+  <meta property="og:description" content="Professional web developer in Eastern Cape creating modern, affordable websites for small businesses across South Africa." />
   <meta property="og:url" content="https://Abongilendamase.netlify.app/" />
-  
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
-  <!-- NAV -->
-   <div class="logo-container">
-        <div class="logo">
-            <div class="name-large">ABONGILE NDAMASE</div>
-            <div class="divider"></div>
-            <div class="subtitle">FOUNDER | WEB SOLUTIONS ARCHITECT</div>
-        </div>
-    </div>
- 
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
 
-      <nav class="main-nav" id="main-nav">
-        
+  <!-- ── Header / Nav ── -->
+  <header>
+    <div class="logo-container">
+      <div class="logo">
+        <div class="name-large">ABONGILE NDAMASE</div>
+        <div class="logo-divider"></div>
+        <div class="logo-subtitle">FOUNDER | WEB SOLUTIONS ARCHITECT</div>
+      </div>
+    </div>
+
+    <nav class="main-nav" id="main-nav">
+      <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#contact" class="contact-btn">Contact</a></li>
-        
-      </nav>
+      </ul>
+    </nav>
 
-      <div class="menu-toggle" id="menu-toggle">☰</div>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
     </div>
   </header>
 
-  <!-- HERO -->
-  <section class="hero">
-  <div class="hero-content">
-    <div class="hero-text">
-      <h2>Building Digital Experiences That Make An Impact</h2>
-      <p>
-          Abongile designs modern websites for brands and businesses,
-          helping them grow their digital presence .
-      </p>
-    
-      <div class="hero-buttons">
-        <a href="#projects" class="btn primary">View My Work</a>
-        <a href="#contact" class="btn ghost" >Contact me</a>
+  <!-- ── Mobile Nav Overlay ── -->
+  <div id="mobile-nav">
+    <a href="#home"     onclick="toggleMenu()">Home</a>
+    <a href="#about"    onclick="toggleMenu()">About</a>
+    <a href="#skills"   onclick="toggleMenu()">Skills</a>
+    <a href="#projects" onclick="toggleMenu()">Projects</a>
+    <a href="#contact"  onclick="toggleMenu()">Contact</a>
+  </div>
+
+  <!-- ── Hero ── -->
+  <section id="home">
+    <div class="hero-bg" id="hero-bg"></div>
+    <div class="orbit-ring"></div>
+    <div class="orbit-ring-2"></div>
+    <div class="hero-image-wrap">
+      <img src="portfolio-image.png" alt="Abongile Ndamase" />
     </div>
-  </div>
-
-  <div class="hero-image">
-    <img src="portfolio-image.png" alt="Abongile Ndamase">
-  </div>
-  </div>
-</section>
-
-  <!-- ABOUT -->
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    
-     <p>I’m a Web Solutions Architect passionate about building digital platforms that are practical, scalable, and future-ready.</p>
-    <p> I enjoy turning complex ideas into simple, effective web experiences.</p>
+    <div class="hero-content">
+      <p class="hero-eyebrow">✦ Eastern Cape, South Africa</p>
+      <h1 class="hero-title">Abongile<br><span class="gold">Ndamase</span></h1>
+      <p class="hero-subtitle">Founder &amp; Web Solutions Architect</p>
+      <p class="hero-desc">Building digital experiences that make an impact — modern websites for brands and businesses that grow their digital presence.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary"><span>View My Work</span></a>
+        <a href="#contact"  class="btn-outline">Contact Me</a>
+      </div>
+    </div>
   </section>
 
-  <!-- PROJECTS -->
-  <section id="projects" class="section">
-    <h2>Projects</h2>
+  <!-- ── About ── -->
+  <section id="about">
+    <div class="about-inner">
+      <div class="about-text reveal">
+        <span class="section-label">✦ About Me</span>
+        <h2 class="section-title">Crafting <em style="color:var(--gold)">Digital</em><br>Architecture</h2>
+        <div class="section-divider"></div>
+        <p>I'm a <strong>Web Solutions Architect</strong> passionate about building digital platforms that are practical, scalable, and future-ready.</p>
+        <p>I enjoy turning complex ideas into simple, effective web experiences — bridging the gap between elegant design and powerful engineering.</p>
+      </div>
+      <div class="about-stats reveal">
+        <div class="stat-box"><span class="stat-number">3+</span><span class="stat-label">Years Experience</span></div>
+        <div class="stat-box"><span class="stat-number">10+</span><span class="stat-label">Projects Delivered</span></div>
+        <div class="stat-box"><span class="stat-number">100%</span><span class="stat-label">Client Satisfaction</span></div>
+        <div class="stat-box"><span class="stat-number">∞</span><span class="stat-label">Creative Solutions</span></div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ── Projects ── -->
+  <section id="projects">
+    <div class="reveal">
+      <span class="section-label">✦ Portfolio</span>
+      <h2 class="section-title">Selected <em style="color:var(--gold)">Work</em></h2>
+      <div class="section-divider"></div>
+    </div>
     <div class="projects-grid">
-      <div class="project-card">
-        <div class="project-item">
-          <img src="business-myportfolio.jpeg" alt="">
-        <h3>Business Website</h3>
-        <p>Responsive website for Revelation Sphere Technologies.</p>
+      <div class="project-card reveal">
+        <img src="business-myportfolio.jpeg" class="project-img" alt="Business Website" />
+        <div class="project-info">
+          <span class="project-num">Project 01</span>
+          <h3 class="project-title">Business Website</h3>
+          <p class="project-desc">Responsive website for Revelation Sphere Technologies — scalable, modern, built for growth.</p>
+          <a href="https://revelationspheretechnologies.netlify.app" target="_blank" class="project-link">View Project</a>
+        </div>
       </div>
-
-      <div class="project-card">
-        <div class="project-item">
-          <img src="Portfolio-project.jpeg" alt="">
-        <h3>Portfolio Site</h3>
-        <p>Personal portfolio Website.</p>
+      <div class="project-card reveal">
+        <img src="Portfolio-project.jpeg" class="project-img" alt="Portfolio Site" />
+        <div class="project-info">
+          <span class="project-num">Project 02</span>
+          <h3 class="project-title">Portfolio Site</h3>
+          <p class="project-desc">Personal portfolio website — crafted to showcase work, skills, and professional identity.</p>
+          <a href="#" class="project-link">View Project</a>
+        </div>
       </div>
-      </div> 
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section">
-    <h2>Contact Abongile</h2>
-    <P>Let’s get personal now! </P>
-
-    <h4>MY CONTACT INFO</h4>
-
-    <h4>Call me on:</h4>
-    <p>068 036 8550</p>
-
-    <h4>Email me via:</h4>
-    <p>abongilendamase01@gmail.com</p>
-
-    <h4>Find me on Social Media:</h4>
-    <div class="social-icons">
-        <a href="https://www.instagram.com/abongile_ndamase21/" target="_blank" aria-label="Instagram">
-           <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/abongile-ndamase-4a361633b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bx5uCVwAsQ1CCmg3ZgLAkoQ%3D%3D" target="_blank"aria-label="LinkedIn">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="https://github.com/GHOSTNETTER" target="_blank"aria-label="GitHub">
-          <i class="fab fa-github"></i>
-        </a>    
+  <!-- ── Skills ── -->
+  <section id="skills">
+    <div class="reveal">
+      <span class="section-label">✦ Expertise</span>
+      <h2 class="section-title">My <em style="color:var(--gold)">Skills</em> &amp;<br>Technologies</h2>
+      <div class="section-divider"></div>
     </div>
+    <div class="skills-grid">
 
+      <div class="skill-category reveal">
+        <span class="skill-icon">🎨</span>
+        <p class="skill-cat-title">Frontend Development</p>
+        <div class="skill-bars">
+          <div class="skill-item">
+            <div class="skill-name-row"><span class="skill-name">HTML5 / CSS3</span><span class="skill-pct">95%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="95"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name-row"><span class="skill-name">JavaScript</span><span class="skill-pct">85%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name-row"><span class="skill-name">Responsive Design</span><span class="skill-pct">90%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+        </div>
+      </div>
 
-    
+      <div class="skill-category reveal">
+        <span class="skill-icon">⚙️</span>
+        <p class="skill-cat-title">Backend &amp; Tools</p>
+        <div class="skill-bars">
+          <div class="skill-item">
+            <div class="skill-name-row"><span class="skill-name">Git / GitHub</span><span class="skill-pct">88%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="88"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name-row"><span class="skill-name">Netlify / Hosting</span><span class="skill-pct">92%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="92"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category reveal">
+        <span class="skill-icon">💼</span>
+        <p class="skill-cat-title">Design &amp; Strategy</p>
+        <div class="skill-bars">
+          <div class="skill-item">
+            <div class="skill-name-row"><span class="skill-name">Canva Design</span><span class="skill-pct">82%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="82"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name-row"><span class="skill-name">Figma</span><span class="skill-pct">78%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="78"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name-row"><span class="skill-name">Brand Identity</span><span class="skill-pct">85%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name-row"><span class="skill-name">Digital Strategy</span><span class="skill-pct">88%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-width="88"></div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- ── Contact ── -->
+  <section id="contact">
+    <div class="contact-inner">
+
+      <div class="reveal">
+        <span class="section-label">✦ Get In Touch</span>
+        <h2 class="section-title">Let's Work<br><em style="color:var(--gold)">Together</em></h2>
+        <div class="section-divider"></div>
+        <p class="contact-intro-text">Let's get personal now! I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+
+        <div class="contact-detail">
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <span class="contact-item-label">Call me on</span>
+              <span class="contact-item-val">068 036 8550</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <span class="contact-item-label">Email me via</span>
+              <span class="contact-item-val">abongilendamase01@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://www.instagram.com/abongile_ndamase21/" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/abongile-ndamase-4a361633b/" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/GHOSTNETTER" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+   </div>
+  </section>
+
+  <!-- ── Footer ── -->
   <footer>
-    <div class="social-icons">
-        <a href="https://www.instagram.com/abongile_ndamase21/" target="_blank" aria-label="Instagram">
-           <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/abongile-ndamase-4a361633b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bx5uCVwAsQ1CCmg3ZgLAkoQ%3D%3D" target="_blank"aria-label="LinkedIn">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="https://github.com/GHOSTNETTER" target="_blank"aria-label="GitHub">
-          <i class="fab fa-github"></i>
-        </a>    
+    <div class="social-icons footer-social">
+      <a href="https://www.instagram.com/abongile_ndamase21/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/abongile-ndamase-4a361633b/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/GHOSTNETTER" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
     </div>
-    <p>© 2026 Abongile Ndamase. All Rights Reserved.</p>
-    <P>Site by Revelation Sphere Technologies</p>
+    <p>© 2026 <span>Abongile Ndamase</span>. All Rights Reserved.</p>
+    <p>Site by <span>Revelation Sphere Technologies</span></p>
   </footer>
-<script src="script.js"></script>
-  
+
+  <script src="script.js"></script>
 </body>
 </html>
